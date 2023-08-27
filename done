@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class JAVA4 {
+    public static void
+
+    main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter marks of Maths");
+        double a = sc.nextDouble();
+        System.out.println("enter marks of Science");
+        double b = sc.nextDouble();
+        System.out.println("enter marks of Social Science");
+        double c = sc.nextDouble();
+        System.out.println("enter marks of English");
+        double d = sc.nextDouble();
+        System.out.println("enter marks of Hindi");
+        double e = sc.nextDouble();
+
+        double sum_of_marks = a+b+c+d+e;
+        double outOf = sum_of_marks*100;
+        double percent = outOf/500;
+
+        System.out.println("Your total percentage of 10th are " + percent);
+
+    }
+}
